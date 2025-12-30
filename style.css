@@ -1,0 +1,25 @@
+/* Ajustes gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Carrossel com altura fixa */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Rodapé */
+footer {
+    margin-top: auto;
+}
